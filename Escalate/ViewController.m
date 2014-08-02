@@ -18,6 +18,21 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/InceptionSound.mp3", [[NSBundle mainBundle] resourcePath]]];
+	
+	NSError *error;
+	self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+	self.audioPlayer.numberOfLoops = 0;
+	
+
+}
+
+- (IBAction)escalate:(id)sender {
+    if (self.audioPlayer == nil)
+		NSLog(@"OOPS");
+	else
+		[self.audioPlayer play];
 }
 
 - (void)didReceiveMemoryWarning
