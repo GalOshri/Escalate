@@ -24,6 +24,10 @@
 	NSError *error;
 	self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
 	self.audioPlayer.numberOfLoops = 0;
+    
+    error = nil;
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&error];
+    [[AVAudioSession sharedInstance] setActive:YES error:&error];
 	
 
 }
