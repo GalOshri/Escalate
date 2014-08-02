@@ -24,6 +24,9 @@
 		0D5CC525198CB8FE0094A181 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5CC524198CB8FE0094A181 /* AVFoundation.framework */; };
 		DAD0DD3F198CBDDF0075E69D /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DD3E198CBDDF0075E69D /* redButton.png */; };
 		DAD0DD43198CBEA50075E69D /* InceptionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DD42198CBEA50075E69D /* InceptionSound.mp3 */; };
+		DAD0DD45198CD2500075E69D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DD44198CD24F0075E69D /* Icon-Small@2x.png */; };
+		DAD0DD48198CD2580075E69D /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DD46198CD2580075E69D /* Icon-40@2x.png */; };
+		DAD0DD49198CD2580075E69D /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DD47198CD2580075E69D /* Icon-60@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		0D5CC524198CB8FE0094A181 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DAD0DD3E198CBDDF0075E69D /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
 		DAD0DD42198CBEA50075E69D /* InceptionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = InceptionSound.mp3; sourceTree = "<group>"; };
+		DAD0DD44198CD24F0075E69D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		DAD0DD46198CD2580075E69D /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		DAD0DD47198CD2580075E69D /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 				0D5CC4FB198CB4E20094A181 /* Main.storyboard */,
 				0D5CC4FE198CB4E20094A181 /* ViewController.h */,
 				DAD0DD3E198CBDDF0075E69D /* redButton.png */,
+				DAD0DD46198CD2580075E69D /* Icon-40@2x.png */,
+				DAD0DD47198CD2580075E69D /* Icon-60@2x.png */,
+				DAD0DD44198CD24F0075E69D /* Icon-Small@2x.png */,
 				DAD0DD42198CBEA50075E69D /* InceptionSound.mp3 */,
 				0D5CC4FF198CB4E20094A181 /* ViewController.m */,
 				0D5CC501198CB4E20094A181 /* Images.xcassets */,
@@ -241,8 +250,11 @@
 				0D5CC502198CB4E20094A181 /* Images.xcassets in Resources */,
 				0D5CC4F4198CB4E20094A181 /* InfoPlist.strings in Resources */,
 				0D5CC4FD198CB4E20094A181 /* Main.storyboard in Resources */,
+				DAD0DD45198CD2500075E69D /* Icon-Small@2x.png in Resources */,
+				DAD0DD48198CD2580075E69D /* Icon-40@2x.png in Resources */,
 				DAD0DD3F198CBDDF0075E69D /* redButton.png in Resources */,
 				DAD0DD43198CBEA50075E69D /* InceptionSound.mp3 in Resources */,
+				DAD0DD49198CD2580075E69D /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
