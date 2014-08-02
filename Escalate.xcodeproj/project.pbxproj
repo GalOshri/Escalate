@@ -21,9 +21,9 @@
 		0D5CC50B198CB4E20094A181 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5CC4ED198CB4E20094A181 /* UIKit.framework */; };
 		0D5CC513198CB4E20094A181 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CC511198CB4E20094A181 /* InfoPlist.strings */; };
 		0D5CC515198CB4E20094A181 /* EscalateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CC514198CB4E20094A181 /* EscalateTests.m */; };
-		0D5CC521198CB80C0094A181 /* EscalateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CC520198CB80C0094A181 /* EscalateButton.png */; };
 		0D5CC523198CB82A0094A181 /* InceptionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CC522198CB82A0094A181 /* InceptionSound.mp3 */; };
 		0D5CC525198CB8FE0094A181 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5CC524198CB8FE0094A181 /* AVFoundation.framework */; };
+		DAD0DD3F198CBDDF0075E69D /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD0DD3E198CBDDF0075E69D /* redButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,9 @@
 		0D5CC510198CB4E20094A181 /* EscalateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EscalateTests-Info.plist"; sourceTree = "<group>"; };
 		0D5CC512198CB4E20094A181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D5CC514198CB4E20094A181 /* EscalateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EscalateTests.m; sourceTree = "<group>"; };
-		0D5CC520198CB80C0094A181 /* EscalateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EscalateButton.png; path = ../../../EscalateButton.png; sourceTree = "<group>"; };
 		0D5CC522198CB82A0094A181 /* InceptionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = InceptionSound.mp3; path = ../../../../Desktop/InceptionSound.mp3; sourceTree = "<group>"; };
 		0D5CC524198CB8FE0094A181 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DAD0DD3E198CBDDF0075E69D /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +124,8 @@
 				0D5CC4F9198CB4E20094A181 /* AppDelegate.m */,
 				0D5CC4FB198CB4E20094A181 /* Main.storyboard */,
 				0D5CC4FE198CB4E20094A181 /* ViewController.h */,
+				DAD0DD3E198CBDDF0075E69D /* redButton.png */,
 				0D5CC4FF198CB4E20094A181 /* ViewController.m */,
-				0D5CC520198CB80C0094A181 /* EscalateButton.png */,
 				0D5CC522198CB82A0094A181 /* InceptionSound.mp3 */,
 				0D5CC501198CB4E20094A181 /* Images.xcassets */,
 				0D5CC4F0198CB4E20094A181 /* Supporting Files */,
@@ -242,7 +242,7 @@
 				0D5CC523198CB82A0094A181 /* InceptionSound.mp3 in Resources */,
 				0D5CC4F4198CB4E20094A181 /* InfoPlist.strings in Resources */,
 				0D5CC4FD198CB4E20094A181 /* Main.storyboard in Resources */,
-				0D5CC521198CB80C0094A181 /* EscalateButton.png in Resources */,
+				DAD0DD3F198CBDDF0075E69D /* redButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +468,7 @@
 				0D5CC51A198CB4E20094A181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D5CC51B198CB4E20094A181 /* Build configuration list for PBXNativeTarget "EscalateTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				0D5CC51D198CB4E20094A181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
